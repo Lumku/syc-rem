@@ -1,0 +1,11 @@
+{
+  "name": "syc-rem",
+  "version": "1.0.2",
+  "description": "adaptive rem with 1 physical pixel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "1016163827@qq.com",
+  "license": "ISC"
+}
