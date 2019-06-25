@@ -1,0 +1,12 @@
+.rem(@px,@key){
+  @key:(@rem / (@targetW / @px))*1rem
+}
+.rem2(@px,@px2,@key){
+  @key:(@rem / (@targetW / @px))*1rem (@rem / (@targetW / @px2))*1rem;
+}
+.rem3(@px,@px2,@px3,@key){
+  @key:(@rem / (@targetW / @px))*1rem (@rem / (@targetW / @px2))*1rem (@rem / (@targetW / @px3))*1rem;
+}
+.rem3(@px,@px2,@px3,@px4,@key){
+  @key:(@rem / (@targetW / @px))*1rem (@rem / (@targetW / @px2))*1rem (@rem / (@targetW / @px3))*1rem (@rem / (@targetW / @px4))*1rem;
+}
